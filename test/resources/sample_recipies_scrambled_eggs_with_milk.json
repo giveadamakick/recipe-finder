@@ -1,0 +1,17 @@
+[
+{
+"name": "vegemite on toast",
+"ingredients": [
+{ "item":"bread", "amount":"2", "unit":"slices"},
+{ "item":"butter", "amount":"20", "unit":"grams"},
+{ "item":"vegemite", "amount":"25", "unit":"grams"}
+]
+},
+{
+"name": "scrambled eggs",
+"ingredients": [
+{ "item":"eggs", "amount":"4", "unit":"of"},
+{ "item":"milk", "amount":"40", "unit":"ml"}
+]
+}
+]
