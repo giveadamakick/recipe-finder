@@ -13,15 +13,14 @@ enum Unit {
     	this.label = label
     }
 
-    Unit parseLabel(String label)
-    {
-        for(Unit unit : values())
-    	{
-    		print 'In fromLabel, unit: ${unit}'
-            if(unit.label == label)
-    		{
-    			return unit
-    		}
-    	}
-    }
+    static Unit fromString(String text) {
+        if (text != null) {
+          for (Unit u : Unit.values()) {
+            if (text.equalsIgnoreCase(u.label)) {
+              return u;
+            }
+          }
+        }
+        return null;
+      }    
 }

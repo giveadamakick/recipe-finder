@@ -7,7 +7,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(redirect: '/recipeFinder/tonight')
         "500"(view:'/error')
 	}
 }
